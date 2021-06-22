@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>691</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Scratch Pad</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>scratch_pad.ico</normaloff>scratch_pad.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:0.472, stop:0 rgba(255, 0, 127, 255), stop:1 rgba(85, 0, 127, 255));
+border-radius:8px;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>New Document</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="font">
+        <font>
+         <family>Ubuntu Mono</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_new">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(203, 203, 203);
+border-radius:8px;</string>
+         </property>
+         <property name="text">
+          <string>New</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>new.ico</normaloff>new.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton__open">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(203, 203, 203);
+border-radius:8px;</string>
+         </property>
+         <property name="text">
+          <string>Open</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>open.ico</normaloff>open.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_save">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(203, 203, 203);
+border-radius:8px;</string>
+         </property>
+         <property name="text">
+          <string>Save</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>save.ico</normaloff>save.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_font">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(203, 203, 203);
+border-radius:8px;</string>
+         </property>
+         <property name="text">
+          <string>Font</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>font.ico</normaloff>font.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_color">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(203, 203, 203);
+border-radius:8px;</string>
+         </property>
+         <property name="text">
+          <string>Color</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>color.ico</normaloff>color.ico</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_print">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(203, 203, 203);
+border-radius:8px;</string>
+         </property>
+         <property name="text">
+          <string>Print</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>print.ico</normaloff>print.ico</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
