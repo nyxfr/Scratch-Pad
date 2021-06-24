@@ -1,0 +1,1 @@
+This python file will only run if pyqt5 is installed in your pc alomg with python. You can download PyQt5 module from "https://pypi.org/project/PyQt5/" and Python from "python.org".
